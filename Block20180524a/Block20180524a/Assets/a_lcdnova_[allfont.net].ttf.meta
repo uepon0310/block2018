@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 14b3e2a145c20b34ebe5ea5a1e71c2cd
+timeCreated: 1526139171
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: a_LCDNova
+  fontNames:
+  - a_LCDNova
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

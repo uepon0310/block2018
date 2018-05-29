@@ -20,7 +20,7 @@ public class GameScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        score = GetComponent<Ball_move>().point;
+        score = GetComponent<Ball_move>().Point;
         ScoreLabel.text = "SCORE : " + score;
     }
 

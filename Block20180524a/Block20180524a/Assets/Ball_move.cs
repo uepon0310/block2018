@@ -26,7 +26,8 @@ public class Ball_move : MonoBehaviour
 //    public GameObject T_obj;             //＊過去の物　タイルオブジェクト
     public GameObject ball;              //ボールのGameObjec
     private GameObject[,] Block_obj;     //ブロックのGameObject配列
-    public int point;                    //GameScoreクラスに継承される　GameScoreクラスの変数scoreに代入される。
+    public int Point;                    //GameScoreクラスに継承される　GameScoreクラスの変数scoreに代入される。
+    public int AddPoint;                    //GameScoreクラスに継承される　GameScoreクラスの変数scoreに代入される。
                                          //    public Vector2 pos;                  //
                                          /*画面３重スクロール前の変数と思われる。
                                              public float flap = 550f;
@@ -58,11 +59,12 @@ public class Ball_move : MonoBehaviour
         }
         x_dir = -1;
         y_dir = -1;
-        point = 0;
+        Point = 0;
+        AddPoint = 100;
 
 
 
-}
+    }
 
 
     void Update()
@@ -102,7 +104,7 @@ public class Ball_move : MonoBehaviour
         {
             y_dir = y_dir * -1;
 
-            point = point + 100;
+            Point = Point+AddPoint;
             distancePerFrame = distancePerFrame + 0.01f;
         }
             return;
